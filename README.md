@@ -6,8 +6,8 @@
 
 | #  | Problem                             | Link                                                                    | Est. Time | Solution                            | Status |
 | -- | ----------------------------------- | ----------------------------------------------------------------------- | --------- | ----------------------------------- | ------ |
-| 1  | Two Sum                             | [Link](https://leetcode.com/problems/two-sum/)                             | 1h        | [Link](./Period_01/two-sum/two-sum.cs) | [x]    |
-| 2  | Add Two Numbers                     | [Link](https://leetcode.com/problems/add-two-numbers/)                     | 1.5h      |                                     | ☐     |
+| 1  | Two Sum                             | [Link](https://leetcode.com/problems/two-sum/)                             | 1h        | [Link](./Period_01/two-sum/two-sum.cs) | ✅     |
+| 2  | Add Two Numbers                     | [Link](https://leetcode.com/problems/add-two-numbers/)                     | 1.5h      | [Link](./Period_01/add-two-numbers/add-two-numbers.cs) | ✅     |
 | 3  | Reverse Integer                     | [Link](https://leetcode.com/problems/reverse-integer/)                     | 1h        |                                     | ☐     |
 | 4  | Palindrome Number                   | [Link](https://leetcode.com/problems/palindrome-number/)                   | 1h        |                                     | ☐     |
 | 5  | Plus One                            | [Link](https://leetcode.com/problems/plus-one/)                            | 1h        |                                     | ☐     |
