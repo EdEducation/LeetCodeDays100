@@ -4,18 +4,18 @@
 
 ## Period 1: Basic Programming (Day 1–10)
 
-| #  | Problem                             | Link                                                                    | Est. Time | Solution                            | Status |
-| -- | ----------------------------------- | ----------------------------------------------------------------------- | --------- | ----------------------------------- | ------ |
-| 1  | Two Sum                             | [Link](https://leetcode.com/problems/two-sum/)                             | 1h        | [Link](./Period_01/two-sum/two-sum.cs) | ✅     |
+| #  | Problem                             | Link                                                                    | Est. Time | Solution                                            | Status |
+| -- | ----------------------------------- | ----------------------------------------------------------------------- | --------- | --------------------------------------------------- | ------ |
+| 1  | Two Sum                             | [Link](https://leetcode.com/problems/two-sum/)                             | 1h        | [Link](./Period_01/two-sum/two-sum.cs)                 | ✅     |
 | 2  | Add Two Numbers                     | [Link](https://leetcode.com/problems/add-two-numbers/)                     | 1.5h      | [Link](./Period_01/add-two-numbers/add-two-numbers.cs) | ✅     |
-| 3  | Reverse Integer                     | [Link](https://leetcode.com/problems/reverse-integer/)                     | 1h        |                                     | ☐     |
-| 4  | Palindrome Number                   | [Link](https://leetcode.com/problems/palindrome-number/)                   | 1h        |                                     | ☐     |
-| 5  | Plus One                            | [Link](https://leetcode.com/problems/plus-one/)                            | 1h        |                                     | ☐     |
-| 6  | Sqrt(x)                             | [Link](https://leetcode.com/problems/sqrtx/)                               | 1h        |                                     | ☐     |
-| 7  | Pow(x, n)                           | [Link](https://leetcode.com/problems/powx-n/)                              | 1h        |                                     | ☐     |
-| 8  | Merge Sorted Array                  | [Link](https://leetcode.com/problems/merge-sorted-array/)                  | 1h        |                                     | ☐     |
-| 9  | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h        |                                     | ☐     |
-| 10 | Climbing Stairs                     | [Link](https://leetcode.com/problems/climbing-stairs/)                     | 1h        |                                     | ☐     |
+| 3  | Reverse Integer                     | [Link](https://leetcode.com/problems/reverse-integer/)                     | 1h        | [Link](./Period_01/reverse-integer/solution-best.py)                                   | ✅     |
+| 4  | Palindrome Number                   | [Link](https://leetcode.com/problems/palindrome-number/)                   | 1h        |                                                     | ☐     |
+| 5  | Plus One                            | [Link](https://leetcode.com/problems/plus-one/)                            | 1h        |                                                     | ☐     |
+| 6  | Sqrt(x)                             | [Link](https://leetcode.com/problems/sqrtx/)                               | 1h        |                                                     | ☐     |
+| 7  | Pow(x, n)                           | [Link](https://leetcode.com/problems/powx-n/)                              | 1h        |                                                     | ☐     |
+| 8  | Merge Sorted Array                  | [Link](https://leetcode.com/problems/merge-sorted-array/)                  | 1h        |                                                     | ☐     |
+| 9  | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h        |                                                     | ☐     |
+| 10 | Climbing Stairs                     | [Link](https://leetcode.com/problems/climbing-stairs/)                     | 1h        |                                                     | ☐     |
 
 ---
 
