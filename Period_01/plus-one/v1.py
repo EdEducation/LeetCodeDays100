@@ -89,6 +89,11 @@ def run_tests():
     
     # Тест 20: Число 1099 -> 1100
     assert solution.plusOne([1, 0, 9, 9]) == [1, 1, 0, 0], "Тест 20 провален"
+
+    # Тест 21: Число 9999.... 100 раз -> 10000 (0 сто раз) 
+    datain = [9] * 100
+    dataout = [1] + [0] * 100
+    assert solution.plusOne(datain) == dataout, "Тест 20 провален"
     
     print("Все тесты пройдены!")
 
