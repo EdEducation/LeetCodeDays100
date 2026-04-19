@@ -21,8 +21,28 @@ from typing import List
 
 class Solution:
     def maxDistance(self, nums1: List[int], nums2: List[int]) -> int:
-        # Реализация будет добавлена здесь (PASS)
-        pass
+        i = 0  # указатель для nums1
+        j = 0  # указатель для nums2
+        max_dist = 0
+        
+        while i < len(nums1) and j < len(nums2):
+            # Если текущая пара валидна
+            if nums1[i] <= nums2[j]:
+                # Обновляем максимальную дистанцию (при условии j >= i)
+                if j >= i:
+                    max_dist = max(max_dist, j - i)
+                # Пытаемся увеличить j, чтобы найти бОльшую дистанцию
+                j += 1
+            else:
+                # nums1[i] > nums2[j] - пара невалидна
+                # Так как массивы невозрастающие, нужно увеличить i,
+                # чтобы nums1[i] стал меньше (или оставить j на месте)
+                i += 1
+                # Важно: j не должен отставать от i
+                if j < i:
+                    j = i
+        
+        return max_dist
 
 
 # Тесты
