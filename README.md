@@ -13,8 +13,8 @@
 | 5  | Plus One                            | [Link](https://leetcode.com/problems/plus-one/)                            | 1h        | [Link](./Period_01/plus-one/v1.py)                     | ✅     |
 | 6  | Sqrt(x)                             | [Link](https://leetcode.com/problems/sqrtx/)                               | 1h        | [Link](./Period_01/sqrtx/)                             | ✅     |
 | 7  | Pow(x, n)                           | [Link](https://leetcode.com/problems/powx-n/)                              | 1h        | [Link](./Period_01/powx-n/)                            | ✅     |
-| 8  | Merge Sorted Array                  | [Link](https://leetcode.com/problems/merge-sorted-array/)                  | 1h        | [Link](./Period_01/merge-sorted-array/v1.py)                            | ✅     |
-| 9  | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h        |                                                     | ☐     |
+| 8  | Merge Sorted Array                  | [Link](https://leetcode.com/problems/merge-sorted-array/)                  | 1h        | [Link](./Period_01/merge-sorted-array/v1.py)           | ✅     |
+| 9  | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h        | [Link](./Period_01/remove-duplicates-from-sorted-array/)           | ✅     |
 | 10 | Climbing Stairs                     | [Link](https://leetcode.com/problems/climbing-stairs/)                     | 1h        |                                                     | ☐     |
 
 ---
