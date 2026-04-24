@@ -2,8 +2,26 @@ from typing import List
 
 class Solution:
     def fizzBuzz(self, n: int) -> List[str]:
-        # реализовать
-        pass
+        answer = []
+        i = 1
+        while (i <= n):
+            if (i % 15 == 0):
+                answer.append("FizzBuzz")
+            else:
+                if (i % 3 == 0):
+                    answer.append("Fizz")
+                else:
+                    if (i % 5 == 0):
+                        answer.append("Buzz")
+                    else:
+                        answer.append(str(i))
+
+            i = i + 1
+
+        return answer
+        
+        
+        
 
 
 # ============================================

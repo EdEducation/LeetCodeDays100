@@ -23,7 +23,7 @@
 
 | #  | Problem                  | Link                                                                                   | Est. Time | Solution                          | Status |
 | -- | ------------------------ | -------------------------------------------------------------------------------------- | --------- | --------------------------------- | ------ |
-| 1  | Fizz Buzz                | [Link](https://leetcode.com/problems/fizz-buzz/)                                          | 0.25h     | [Link](./Period_01/climbing-stairs/) | ✅     |
+| 1  | Fizz Buzz                | [Link](https://leetcode.com/problems/fizz-buzz/)                                          | 0.25h     | [Link](./Period_02/fizz-buzz/) | ✅     |
 | 2  | Roman to Integer         | [Link](https://leetcode.com/problems/roman-to-integer/)                                   | 1h        |                                   | ☐     |
 | 3  | Integer to Roman         | [Link](https://leetcode.com/problems/integer-to-roman/)                                   | 1.5h      |                                   | ☐     |
 | 4  | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/)                             | 1.5h      |                                   | ☐     |
