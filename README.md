@@ -15,24 +15,24 @@
 | 7  | Pow(x, n)                           | [Link](https://leetcode.com/problems/powx-n/)                              | 1h        | [Link](./Period_01/powx-n/)                              | ✅     |
 | 8  | Merge Sorted Array                  | [Link](https://leetcode.com/problems/merge-sorted-array/)                  | 1h        | [Link](./Period_01/merge-sorted-array/v1.py)             | ✅     |
 | 9  | Remove Duplicates from Sorted Array | [Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 1h        | [Link](./Period_01/remove-duplicates-from-sorted-array/) | ✅     |
-| 10 | Climbing Stairs                     | [Link](https://leetcode.com/problems/climbing-stairs/)                     | 1h        | [Link](./Period_01/climbing-stairs/) | ✅     |
+| 10 | Climbing Stairs                     | [Link](https://leetcode.com/problems/climbing-stairs/)                     | 1h        | [Link](./Period_01/climbing-stairs/)                     | ✅     |
 
 ---
 
 ## Period 2: Control Structures (Day 11–20)
 
-| #  | Problem                  | Link                                                                                   | Est. Time | Status |
-| -- | ------------------------ | -------------------------------------------------------------------------------------- | --------- | ------ |
-| 1  | Fizz Buzz                | [Link](https://leetcode.com/problems/fizz-buzz/)                                          | 0.25h     | ☐     |
-| 2  | Roman to Integer         | [Link](https://leetcode.com/problems/roman-to-integer/)                                   | 1h        | ☐     |
-| 3  | Integer to Roman         | [Link](https://leetcode.com/problems/integer-to-roman/)                                   | 1.5h      | ☐     |
-| 4  | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/)                             | 1.5h      | ☐     |
-| 5  | Valid Parentheses        | [Link](https://leetcode.com/problems/valid-parentheses/)                                  | 1h        | ☐     |
-| 6  | Implement strStr()       | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        | ☐     |
-| 7  | Count and Say            | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        | ☐     |
-| 8  | Longest Common Prefix    | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        | ☐     |
-| 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      | ☐     |
-| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        | ☐     |
+| #  | Problem                  | Link                                                                                   | Est. Time | Solution                          | Status |
+| -- | ------------------------ | -------------------------------------------------------------------------------------- | --------- | --------------------------------- | ------ |
+| 1  | Fizz Buzz                | [Link](https://leetcode.com/problems/fizz-buzz/)                                          | 0.25h     | [Link](./Period_01/climbing-stairs/) | ✅     |
+| 2  | Roman to Integer         | [Link](https://leetcode.com/problems/roman-to-integer/)                                   | 1h        |                                   | ☐     |
+| 3  | Integer to Roman         | [Link](https://leetcode.com/problems/integer-to-roman/)                                   | 1.5h      |                                   | ☐     |
+| 4  | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/)                             | 1.5h      |                                   | ☐     |
+| 5  | Valid Parentheses        | [Link](https://leetcode.com/problems/valid-parentheses/)                                  | 1h        |                                   | ☐     |
+| 6  | Implement strStr()       | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        |                                   | ☐     |
+| 7  | Count and Say            | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        |                                   | ☐     |
+| 8  | Longest Common Prefix    | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        |                                   | ☐     |
+| 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      |                                   | ☐     |
+| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        |                                   | ☐     |
 
 ---
 
