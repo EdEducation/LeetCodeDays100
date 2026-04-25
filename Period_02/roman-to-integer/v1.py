@@ -1,7 +1,30 @@
 class Solution:
     def romanToInt(self, s: str) -> int:
-        # реализовать
-        pass
+        # реестр цифр
+        rim = dict()
+        rim["M"] = 1000 
+        rim["D"] = 500
+        rim["C"] = 100
+        rim["L"] = 50
+        rim["X"] = 10
+        rim["V"] = 5
+        rim["I"] = 1
+
+        total = 0
+        n = len(s)
+        
+        # Итерируем по строке
+        for i in range(n):
+            current_value = rim[s[i]]
+            
+            # Проверяем, нужно ли вычитать текущее значение
+            # Вычитаем, если следующий символ существует и его значение больше текущего
+            if i + 1 < n and rim[s[i + 1]] > current_value:
+                total -= current_value
+            else:
+                total += current_value
+        
+        return total
 
 
 # Тесты
