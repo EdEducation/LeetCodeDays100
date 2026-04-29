@@ -11,8 +11,22 @@
 
 class Solution:
     def isValid(self, s: str) -> bool:
-        # реализовать
-        pass
+        stack = [] # если открывающая скобка - наполняем, иначе извлекаем последний элемент, должен быть парным к закрывающему
+        mapping = {')':'(','}':'{',']':'['} # словарь парных элементов
+
+        for char in s:
+            if char in "({[": # открывающая скобка
+                stack.append(char)
+            else: # закрывающая скобка
+                if not stack: # stack пуст
+                    return False
+                else:
+                    top = stack.pop() # извлекаем последний элемент из stack
+                    if top != mapping[char]:
+                        return False
+                    
+        return len(stack) == 0 # stack в конце должен остаться пустым
+
 
 
 # Тесты
