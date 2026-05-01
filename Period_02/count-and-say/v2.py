@@ -18,19 +18,24 @@ class Solution:
         result = "1"
         
         for _ in range(2, n + 1):
-            # Применяем RLE к result
-            current = ""
+            chars = []
             count = 1
+            prev = result[0]
             
-            for i in range(len(result)):
-                # Если это последний символ или следующий символ отличается
-                if i + 1 == len(result) or result[i] != result[i + 1]:
-                    current += str(count) + result[i]
-                    count = 1
-                else:
+            for curr in result[1:]:
+                if curr == prev:
                     count += 1
+                else:
+                    chars.append(str(count))
+                    chars.append(prev)
+                    prev = curr
+                    count = 1
             
-            result = current
+            # Добавляем последнюю группу
+            chars.append(str(count))
+            chars.append(prev)
+            
+            result = ''.join(chars)
         
         return result
             
