@@ -27,8 +27,8 @@
 | 2  | Roman to Integer         | [Link](https://leetcode.com/problems/roman-to-integer/)                                   | 1h        | [Link](./Period_02/roman-to-integer/)       | ✅     |
 | 3  | Integer to Roman         | [Link](https://leetcode.com/problems/integer-to-roman/)                                   | 1.5h      | [Link](./Period_02/integer-to-roman/)       | ✅     |
 | 4  | String to Integer (atoi) | [Link](https://leetcode.com/problems/string-to-integer-atoi/)                             | 1.5h      | [Link](./Period_02/string-to-integer-atoi/) | ✅     |
-| 5  | Valid Parentheses        | [Link](https://leetcode.com/problems/valid-parentheses/)                                  | 1h        | [Link](./Period_02/valid-parentheses/) | ✅     |
-| 6  | Implement strStr()       | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        |                                          | ☐     |
+| 5  | Valid Parentheses        | [Link](https://leetcode.com/problems/valid-parentheses/)                                  | 1h        | [Link](./Period_02/valid-parentheses/)      | ✅     |
+| 6  | Implement strStr()       | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        | [Link](./Period_02/find-the-index-of-the-first-occurrence-in-a-string/)      | ✅     |
 | 7  | Count and Say            | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        |                                          | ☐     |
 | 8  | Longest Common Prefix    | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        |                                          | ☐     |
 | 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      |                                          | ☐     |
