@@ -24,9 +24,25 @@ class Solution:
         Временная сложность: O(n)
         Пространственная сложность: O(1)
         """
-        # TODO: реализовать проход справа налево
-        pass
+        result = 0
+        isWordFound = False
 
+        if s:
+           # идем с конца
+           length = len(s)-1
+           while length >= 0:
+               if s[length] != ' ': # символ не пробельный
+                   #char = s[length]
+                   if not isWordFound:
+                       isWordFound = True
+                   result += 1
+               else:
+                   # символ пробельный
+                   if isWordFound:
+                       break   
+               length -= 1
+                   
+        return result
 
 def run_tests():
     """Запуск тестов для проверки решения"""
