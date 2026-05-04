@@ -31,8 +31,8 @@
 | 6  | Implement strStr()       | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        | [Link](./Period_02/find-the-index-of-the-first-occurrence-in-a-string/) | ✅     |
 | 7  | Count and Say            | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        | [Link](./Period_02/count-and-say/)                                      | ✅     |
 | 8  | Longest Common Prefix    | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        | [Link](./Period_02/longest-common-prefix/)                              | ✅     |
-| 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      | [Link](./Period_02/length-of-last-word/)                              | ✅     |
-| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        |                                                                      | ☐     |
+| 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      | [Link](./Period_02/length-of-last-word/)                                | ✅     |
+| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        | [Link](./Period_02/add-binary/)                                | ✅     |
 
 ---
 
