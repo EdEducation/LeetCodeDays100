@@ -32,24 +32,24 @@
 | 7  | Count and Say            | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        | [Link](./Period_02/count-and-say/)                                      | ✅     |
 | 8  | Longest Common Prefix    | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        | [Link](./Period_02/longest-common-prefix/)                              | ✅     |
 | 9  | Length of Last Word      | [Link](https://leetcode.com/problems/length-of-last-word/)                                | 0.5h      | [Link](./Period_02/length-of-last-word/)                                | ✅     |
-| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        | [Link](./Period_02/add-binary/)                                | ✅     |
+| 10 | Add Binary               | [Link](https://leetcode.com/problems/add-binary/)                                         | 1h        | [Link](./Period_02/add-binary/)                                         | ✅     |
 
 ---
 
 ## Period 3: Strings (Day 21–30)
 
-| #  | Problem                                        | Link                                                                                   | Est. Time | Status |
-| -- | ---------------------------------------------- | -------------------------------------------------------------------------------------- | --------- | ------ |
-| 1  | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)     | 2h        | ☐     |
-| 2  | Longest Palindromic Substring                  | [Link](https://leetcode.com/problems/longest-palindromic-substring/)                      | 2h        | ☐     |
-| 3  | Group Anagrams                                 | [Link](https://leetcode.com/problems/group-anagrams/)                                     | 2h        | ☐     |
-| 4  | Valid Anagram                                  | [Link](https://leetcode.com/problems/valid-anagram/)                                      | 1h        | ☐     |
-| 5  | Minimum Window Substring                       | [Link](https://leetcode.com/problems/minimum-window-substring/)                           | 2h        | ☐     |
-| 6  | Valid Palindrome                               | [Link](https://leetcode.com/problems/valid-palindrome/)                                   | 1h        | ☐     |
-| 7  | Implement strStr()                             | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        | ☐     |
-| 8  | Count and Say                                  | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        | ☐     |
-| 9  | Longest Common Prefix                          | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        | ☐     |
-| 10 | Multiply Strings                               | [Link](https://leetcode.com/problems/multiply-strings/)                                   | 2h        | ☐     |
+| #  | Problem                                        | Link                                                                                   | Est. Time | Solution                     | Status |
+| -- | ---------------------------------------------- | -------------------------------------------------------------------------------------- | --------- | ---------------------------- | ------ |
+| 1  | Longest Substring Without Repeating Characters | [Link](https://leetcode.com/problems/longest-substring-without-repeating-characters/)     | 2h        | [Link](./Period_03/longest-substring-without-repeating-characters/) | ✅     |
+| 2  | Longest Palindromic Substring                  | [Link](https://leetcode.com/problems/longest-palindromic-substring/)                      | 2h        |                              | ☐     |
+| 3  | Group Anagrams                                 | [Link](https://leetcode.com/problems/group-anagrams/)                                     | 2h        |                              | ☐     |
+| 4  | Valid Anagram                                  | [Link](https://leetcode.com/problems/valid-anagram/)                                      | 1h        |                              | ☐     |
+| 5  | Minimum Window Substring                       | [Link](https://leetcode.com/problems/minimum-window-substring/)                           | 2h        |                              | ☐     |
+| 6  | Valid Palindrome                               | [Link](https://leetcode.com/problems/valid-palindrome/)                                   | 1h        |                              | ☐     |
+| 7  | Implement strStr()                             | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        |                              | ☐     |
+| 8  | Count and Say                                  | [Link](https://leetcode.com/problems/count-and-say/)                                      | 1h        |                              | ☐     |
+| 9  | Longest Common Prefix                          | [Link](https://leetcode.com/problems/longest-common-prefix/)                              | 1h        |                              | ☐     |
+| 10 | Multiply Strings                               | [Link](https://leetcode.com/problems/multiply-strings/)                                   | 2h        |                              | ☐     |
 
 ---
 
