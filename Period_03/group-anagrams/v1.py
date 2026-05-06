@@ -3,8 +3,18 @@ from collections import defaultdict
 
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        # реализовать
-        pass
+
+        hashTable = {}
+        
+        for item in strs:
+            key = "".join(sorted(item))
+
+            if key in hashTable:
+                hashTable[key].append(item)
+            else:
+                hashTable[key] = [item]
+
+        return list(hashTable.values())
 
 
 # Тесты
