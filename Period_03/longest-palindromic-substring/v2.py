@@ -12,26 +12,45 @@ class Solution:
         
         Для n ≤ 1000 подойдет любой алгоритм O(n²), но Манакер даёт лучшее 
         асимптотическое время O(n).
+        
+        Алгоритм Манакера (Manacher's Algorithm)
+        Время: O(n), память: O(n)
+        Оптимальное решение для очень длинных строк.
         """
-        def check(i, j):
-            left = i
-            right = j - 1
-
-            while left < right:
-                if s[left] != s[right]:
-                    return False
-
-                left += 1
-                right -= 1
-
-            return True
-
-        for length in range(len(s), 0, -1):
-            for start in range(len(s) - length + 1):
-                if check(start, start + length):
-                    return s[start : start + length]
-
-        return ""
+        if not s or len(s) <= 1:
+            return s
+        
+        # Преобразование строки: вставляем разделители
+        # Например: "babad" -> "^#b#a#b#a#d#$"
+        T = '#' + '#'.join(s) + '#'
+        n = len(T)
+        P = [0] * n  # Массив радиусов палиндромов
+        
+        center = right = 0
+        
+        for i in range(1, n - 1):
+            # Зеркальная позиция относительно center
+            mirror = 2 * center - i
+            
+            if i < right:
+                P[i] = min(right - i, P[mirror])
+            
+            # Расширяем палиндром
+            while i + P[i] + 1 < n and i - P[i] - 1 >= 0 and T[i + P[i] + 1] == T[i - P[i] - 1]:
+                P[i] += 1
+            
+            # Обновляем center и right если нашли более правый палиндром
+            if i + P[i] > right:
+                center = i
+                right = i + P[i]
+        
+        # Находим максимальный радиус и его центр
+        max_radius = max(P)
+        center_index = P.index(max_radius)
+        
+        # Восстанавливаем исходный палиндром
+        start = (center_index - max_radius) // 2
+        return s[start:start + max_radius]
 
 
 # Тесты
