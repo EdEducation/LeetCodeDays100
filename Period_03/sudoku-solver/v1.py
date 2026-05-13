@@ -5,8 +5,56 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
-        # Реализация будет добавлена позже (PASS)
-        pass
+        # Запускаем рекурсивный поиск с возвратом
+        self.solve(board)
+    
+    def solve(self, board: List[List[str]]) -> bool:
+        """Рекурсивная функция поиска с возвратом"""
+        # Находим первую пустую клетку
+        for row in range(9):
+            for col in range(9):
+                if board[row][col] == '.':
+                    # Пробуем поставить цифры от 1 до 9
+                    for num in range(1, 10):
+                        if self.is_valid(board, row, col, str(num)):
+                            # Ставим цифру
+                            board[row][col] = str(num)
+                            
+                            # Рекурсивно пробуем решить дальше
+                            if self.solve(board):
+                                return True
+                            
+                            # Если не получилось - откатываем (backtrack)
+                            board[row][col] = '.'
+                    
+                    # Если ни одна цифра не подошла - возвращаем False
+                    return False
+        
+        # Если пустых клеток нет - судоку решена
+        return True
+    
+    def is_valid(self, board: List[List[str]], row: int, col: int, num: str) -> bool:
+        """Проверяет, можно ли поставить число num в клетку (row, col)"""
+        
+        # Проверяем строку
+        for j in range(9):
+            if board[row][j] == num:
+                return False
+        
+        # Проверяем столбец
+        for i in range(9):
+            if board[i][col] == num:
+                return False
+        
+        # Проверяем квадрат 3x3
+        box_row = (row // 3) * 3
+        box_col = (col // 3) * 3
+        for i in range(box_row, box_row + 3):
+            for j in range(box_col, box_col + 3):
+                if board[i][j] == num:
+                    return False
+        
+        return True
 
 
 """
