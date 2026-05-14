@@ -49,7 +49,7 @@
 | 7  | Implement strStr()                             | [Link](https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/) | 1h        | [Link](./Period_03/valid-palindrome/readme.md)                      | ✅     |
 | 8  | Zigzag Conversion                              | [Link](https://leetcode.com/problems/zigzag-conversion/)                                  | ???       | [Link](./Period_03/valid-palindrome/readme.md)                      | ✅     |
 | 9  | Sudoku Solver                                  | [Link](https://leetcode.com/problems/sudoku-solver/)                                      | 1h        | [Link](./Period_03/valid-palindrome/readme.md)                      | ✅     |
-| 10 | Multiply Strings                               | [Link](https://leetcode.com/problems/multiply-strings/)                                   | 2h        |                                                                  | ☐     |
+| 10 | Multiply Strings                               | [Link](https://leetcode.com/problems/multiply-strings/)                                   | 2h        |                                                                  | ✅     |
 
 ---
 
