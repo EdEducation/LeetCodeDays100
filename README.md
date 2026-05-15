@@ -57,7 +57,7 @@
 
 | #  | Problem                                 | Link                                                                        | Est. Time | Solution                                    | Status |
 | -- | --------------------------------------- | --------------------------------------------------------------------------- | --------- | ------------------------------------------- | ------ |
-| 1  | Merge Two Sorted Lists                  | [Link](https://leetcode.com/problems/merge-two-sorted-lists/)                  | 1h        | [Link](./Period_03/multiply-strings/readme.md) | ✅     |
+| 1  | Merge Two Sorted Lists                  | [Link](https://leetcode.com/problems/merge-two-sorted-lists/)                  | 1h        | [Link](./Period_04/merge-two-sorted-lists/readme.md) | ✅     |
 | 2  | Remove Nth Node From End of List        | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list/)        | 1h        |                                             | ☐     |
 | 3  | Reverse Linked List                     | [Link](https://leetcode.com/problems/reverse-linked-list/)                     | 1h        |                                             | ☐     |
 | 4  | Swap Nodes in Pairs                     | [Link](https://leetcode.com/problems/swap-nodes-in-pairs/)                     | 1h        |                                             | ☐     |
